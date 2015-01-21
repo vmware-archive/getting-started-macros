@@ -1,0 +1,14 @@
+:linkattrs:
+
+Use Gradle to build an executable JAR file that contains all the necessary dependencies, classes, and resources:
+
+[subs="attributes", role="has-copy-button"]
+....
+./gradlew build
+....
+
+Gradle places the build artifact in the following location:
+
+....
+build/libs/{project_id}-0.1.0.jar
+....

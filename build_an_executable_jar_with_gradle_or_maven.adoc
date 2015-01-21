@@ -1,0 +1,27 @@
+:linkattrs:
+
+Use Gradle to build an executable JAR file that contains all the necessary dependencies, classes, and resources:
+
+[subs="attributes", role="has-copy-button"]
+....
+./gradlew build
+....
+
+Gradle places the build artifact in the following location:
+
+....
+build/libs/{project_id}-0.1.0.jar
+....
+
+Alternatively, use Maven to build the JAR file:
+
+[subs="attributes", role="has-copy-button"]
+....
+mvn clean package
+....
+
+The Maven build artifact is available at the following path:
+
+....
+target/{project_id}-0.1.0.jar
+....
