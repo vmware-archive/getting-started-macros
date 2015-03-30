@@ -3,7 +3,7 @@
 ifndef::java_version[:java_version: 1.7]
 
 - About 15 minutes
-- A Pivotal Web Services account or Pivotal Cloud Foundry environment
+- A Pivotal Cloud Foundry environment
 - A favorite text editor or IDE
 - http://www.oracle.com/technetwork/java/javase/downloads/index.html[JDK {java_version}] or later
 - http://www.gradle.org/downloads[Gradle 2.3+] or http://maven.apache.org/download.cgi[Maven 3.0+]
